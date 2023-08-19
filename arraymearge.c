@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a[10], b[10], size1, size2, i, k, c[50];
+    int a[50], b[50], size1, size2, i, k, c[50];
     printf("Enter Array 1 Size: ");
     scanf("%d", &size1);
     printf("Enter Array 1 Elements: ");
@@ -23,6 +23,5 @@ int main()
     printf("\nThe new array after merging is:\n");
     for(i=0; i<k; i++)
         printf("%d ", c[i]);
-    getch();
     return 0;
 }
